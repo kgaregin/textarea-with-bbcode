@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Textarea with bbcode example</title>
+  <style type="text/css" href="textarea-with-bbcode.css"></style>
+</head>
+
+<body>
+  <div class="textarea_bbcode"></div>
+  <script type="text/javascript" src="textarea-with-bbcode.js"></script>
+  <script type="text/javascript">
+  let twbContainer = document.querySelector('.textarea_bbcode');
+  let bbcodeTags = {
+    	'Разделитель': ['[s]',''],
+    	'Зачеркатель-исправитель': ['[m correction="RightText"]','[/m]'],
+    	'Вставлятель c галочкой': ['[i insert="', '"]'],
+    	'Вставлятель просто': ['[p insert="','"]']
+    }
+  new TextareaWithBBCode(
+    twbContainer, bbcodeTags, {});
+  </script>
+</body>
+
+</html>

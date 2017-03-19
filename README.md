@@ -1,2 +1,2 @@
 # textarea-with-bbcode
-simple textarea with bbcode supporting written in module style
+Simple textarea with bbcode supporting written in module style with ES6.
