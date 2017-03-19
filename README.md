@@ -1,4 +1,4 @@
-# textarea-with-bbcode
+# Textarea with simple BBCode (bulletin board code).
 Textarea with very simple bbcode supporting, written in module style with ES6. 
 
 How to use: just create a new instance of TextareaWithBBCode on container DOM element with options.
