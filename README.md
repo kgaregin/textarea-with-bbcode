@@ -12,9 +12,11 @@ let bbcodeTags = {
 }
 let textareaAttributes = {
 	cols: 10,
-	... // any textarea attribute. If column number (cols) not specified textarea width will be 100% to fill parent.
+	... // any textarea attribute. If column number (cols) not specified
+			// textarea width will be 100% to fill parent.
 }
-new TextareaWithBBCode(containerElement, bbcodeTags, textareaAttributes); // container element always required. Everything else is optional.
+new TextareaWithBBCode(containerElement, bbcodeTags, textareaAttributes); 
+// container element always required. Everything else is optional.
 ```
 
 Additional example of usage may also be found inside example.html
